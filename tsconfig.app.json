@@ -1,0 +1,44 @@
+/*
+I'm going to be honest, I don't even know at
+what point I made this file, this might be
+chatGPT nonesense that did not help at all,
+I've found nothing from GPT has helped with
+this project so I'm gutting any AI-code
+and going AI-free 
+
+*/
+
+/*{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    
+    //shadcn
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+  /*  /* Bundler mode */
+  /*
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    /*
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+} */
+

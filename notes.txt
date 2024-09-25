@@ -1,0 +1,103 @@
+running list of commands for project
+
+1. vite
+*****************************
+npm create vite@latest ./
+
+choose React
+
+choose TypeScript
+
+npm install
+
+npm run dev (opens application)
+*******************************
+
+2. tailwind css
+******************************
+npm install -D tailwindcss post css autoprefixer
+
+npx tailwindcss init -p
+
+npm run dev
+
+npm install -D tailwindcss-animate
+************************************
+
+3. routing
+**************************************
+npm install react-router-dom
+
+****************
+
+4. shadcn/ui
+*******************************
+npm i -D @types/node
+
+npx shadcn-ui@latest init
+
+(next few lines will be question/answer between terminal and user,
+answers are provided)
+
+use typescript? yes
+
+which style? default
+
+which color as base color? slate
+
+(NEXT STEP IS IMPORTANT MAKE SURE TO PUT src/globals.css)
+
+where is your global.css file? src/globals.css
+
+would you like to use css variables for colors? yes
+
+where is your tailwind.config.js located? tailwind.config.js
+
+configure import alias for components: @/components
+
+configure import utils: @/lib/utils
+
+are you using React Server Components? yes
+
+(install, then you can install the actual components)
+
+npx shadcn-ui@latest add button
+
+to display, go to localhost:(generated number)/sign-up
+
+*******************************************
+
+5. shadcn/ui form installation
+*********************************************
+npx shadcn-ui@latest add form
+
+********************************************
+
+6. install appwrite
+*******************************************
+npm install appwrite
+
+**********************************************
+
+7. shadcn toast implementation
+*********************************************
+npx shadcn@latest add toast
+
+8. tanstack
+********************************************
+npm install @tanstack/react-query
+
+*******************************************
+9. shadcn text area
+******************************************
+npx shadcn@latest add textarea
+
+useful keyboard shortcuts:
+
+auto import: double click name of variable, click control + space,
+ click name of page path that pops up in object menu, 
+ it will auto import the path to that page or file etc
+
+CTRL + SHIFT + F : lets you search code within a file
+
+
